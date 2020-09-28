@@ -1,0 +1,14 @@
+{"namespace": "avro",
+ "type": "record",
+ "name": "airlines",
+ "fields": [
+     {"name": "airlineID", "type": "int"},
+     {"name": "name",  "type": "string"},
+     {"name": "alias", "type": "string"},
+     {"name": "iata", "type": "string"},
+     {"name": "icao", "type": "string"},
+     {"name": "callsign", "type": "string"},
+     {"name": "country", "type": "string"},
+     {"name": "active", "type": "string"}
+ ]
+}
