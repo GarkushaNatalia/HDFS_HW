@@ -3,12 +3,12 @@
  "name": "airlines",
  "fields": [
      {"name": "airlineID", "type": "int"},
-     {"name": "name",  "type": "string"},
-     {"name": "alias", "type": "string"},
-     {"name": "iata", "type": "string"},
-     {"name": "icao", "type": "string"},
-     {"name": "callsign", "type": "string"},
-     {"name": "country", "type": "string"},
-     {"name": "active", "type": "string"}
+     {"name": "name",  "type": ["string", "null"]},
+     {"name": "alias", "type": ["string", "null"]},
+     {"name": "iata", "type": ["string", "null"]},
+     {"name": "icao", "type": ["string", "null"]},
+     {"name": "callsign", "type": ["string", "null"]},
+     {"name": "country", "type": ["string", "null"]},
+     {"name": "active", "type": "boolean"}
  ]
 }
